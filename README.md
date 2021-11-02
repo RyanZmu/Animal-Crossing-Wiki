@@ -3,7 +3,7 @@
 ##Description:## Using the Animal Crossing New Horizon API (http://acnhapi.com/doc) a user can look up any item or villager in the game and get information back, primarily pretaining to the items prices.
 
 
-##Purpose Of Project:##
+#Purpose Of Project:#
 
 <details>
 - Work with a RESTFUL API database to take user input and return relevant 
