@@ -1,0 +1,54 @@
+* {
+ box-sizing: border-box;
+ /* margin:0px; */
+}
+
+h1 {
+    border:2px solid gray;
+    /* margin: 1rem 20rem; */
+    background-color: rgba(247, 247, 247, 0.733);
+}
+
+.containerMain {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+body {
+    background-color: skyblue;
+    background-image: url('./images/background.png');    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 85%;
+    background-position: center;
+    color: hsl(111, 5%, 29%);
+    text-align: center;
+  
+}
+
+img {
+    height:10rem;
+    width: 17rem;
+    margin:auto;
+}
+
+/* form {
+} */
+
+table {
+    display: flex;
+    flex-flow: column nowrap; 
+    background-color: rgba(247, 247, 247, 0.733);
+    min-width: 60rem;
+}
+
+/* select {
+    float: center; 
+} */
+
+input {
+    color: rgb(50, 179, 57);
+}
+
