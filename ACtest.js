@@ -14,7 +14,7 @@ function requestInfo (infoRequested, itemName) {
     if (infoRequested === ''|| itemName === '') {
         alert('Please Enter A Valid Name and Type')
     }
-     fetch(`http://acnhapi.com/v1a/${infoRequested.replace(' ', '_')}/${itemName.replace(' ', '_')}`)
+     fetch(`https://acnhapi.com/v1a/${infoRequested.replace(' ', '_')}/${itemName.replace(' ', '_')}`)
      .then(response => response.json())
      .catch(error => console.error(error))
      .then(data => {
